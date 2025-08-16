@@ -1,0 +1,83 @@
+@import "../../vars.css";
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    z-index: 2;
+    background: linear-gradient(0deg, rgba(136, 28, 28, 0.4) 0%, rgba(136, 28, 28, 1) 100%);
+    border-radius: 10px; /* optional if you don't want full width */
+    
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menu{
+    display: flex;
+}
+
+.menuitems{
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menuitems a {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(145deg, #ffb3b3, #b46060);
+    font-family: Arial, sans-serif;
+    background-attachment: fixed; /* keeps stripes fixed while scrolling */
+    background-size: 80px;
+ /* prevents the gradient from stretching */
+}
+
+
+
+
+@media screen and (max-width: 830px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+    }
+    .menuitems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(136, 28, 28);
+        background: linear-gradient(0deg, rgba(136, 28, 28, 0.4) 0%, rgba(136, 28, 28, 1) 100%);
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 136);
+    }
+    .menuOpen{
+    display: flex;
+    z-index: 1;
+}
+}

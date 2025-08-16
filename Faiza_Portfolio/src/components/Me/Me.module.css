@@ -1,0 +1,78 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 41px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(219, 199, 199);
+    z-index: 1;
+}
+.title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+}
+.description{
+    font-size: 30px;
+    margin-bottom: 52px;
+}
+.contactBtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: rgb(219, 199, 199);
+    font-weight: 600;
+    font-size: 30px;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 70%;
+}
+.MeImg{
+    width: 100%;
+    z-index: 1;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+    .MeImg{
+        width: 50%;
+    }
+    .title{
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 33px;
+    }
+    .description{
+        font-size: 25px;
+    }
+}
