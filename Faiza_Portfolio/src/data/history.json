@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Engagement Ambassador",
+    "organisation": "RNL (Ruffalo Noel Levitz)",
+    "experiences": ["Gained experience with a remote environment connecting to a VPN to communicate with Wayne State University Alumni in order to collect donations."],
+    "imageSrc": "/assets/Skills/rnl.png"
+  },
+  {
+    "role": "Peer Mentor",
+    "organisation": "WSU (Wayne State University)",
+    "experiences": ["Gained experience as a leader for students assisting them to discover and set a major for college through class activities, exams and presentation and speech."],
+    "imageSrc": "/assets/Skills/wsu.png"
+  },
+  {
+    "role": "Library Student Assistant",
+    "organisation": "WSU (Wayne State University)",
+    "experiences": ["Gained experience in multiple areas including in person collaboration, completing multiple tasks, multitasking, communication, and teamwork."],
+    "imageSrc": "/assets/Skills/wsu.png"
+  }
+]

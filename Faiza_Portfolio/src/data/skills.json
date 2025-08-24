@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/Skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/Skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "/assets/Skills/js.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/Skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "/assets/Skills/node.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "/assets/Skills/php.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "/assets/Skills/database.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "/assets/Skills/figma.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "/assets/Skills/aws.png"
+  }
+]

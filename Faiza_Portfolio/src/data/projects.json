@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Rar (Rent A Car)",
+    "imageSrc": "/assets/Project/Rcarlogo.png",
+    "description": "I led a team of four to develop a dynamic, responsive web application for car rentals, featuring an optional payment plan, hosted on AWS",
+    "skills": ["HTML", "CSS", "JavaScript", "WAMP", "AWS"],
+    "View": "https://frar.net/",
+    "Code": "https://github.com/flkitty/Rar-Rent_a_Car"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "/rose.ico",
+    "description": "This is my portfolio project that you are going over right now! Yay!",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "View": "Right here!",
+    "Code": "https://github.com/flkitty/Code"
+  }
+]
