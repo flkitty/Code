@@ -57,6 +57,20 @@
     }
 }
 
+
+@media screen and (max-width: 2000px) {
+    .title{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .description{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .contactBtn{
+        font-size: 20px;
+    }
+}  
 @media screen and (max-width: 830px) {
     .container{
         flex-direction: column-reverse;
@@ -68,11 +82,28 @@
         width: 50%;
     }
     .title{
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 900;
-        margin-bottom: 33px;
+        margin-bottom: 20px;
     }
     .description{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .contactBtn{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contactBtn{
+        font-size: 10px;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .description{
+        font-size: 15px;
+        margin-bottom: 15px;
     }
 }

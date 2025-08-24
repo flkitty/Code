@@ -1,0 +1,159 @@
+@import "../../vars.css";
+
+.skillImage {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.container {
+    position: relative;
+    
+    border-radius: 15px;
+    padding: 73px;     
+    margin-top: 129px;
+    z-index: 1;
+    margin-right: 10%;
+    margin-left: 10%;
+    background: linear-gradient(135deg, #f8a3a3, #b46060);
+}
+.title{
+    color: rgb(219, 199, 199);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+
+}
+.content{
+    color: rgb(219, 199, 199);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+.skillImageBox{
+    background-color: var(--color-secondary);
+    border-radius: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+.skill p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 2000px) {
+    .container{
+        background-color: transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .skillImage {
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+    }
+    .skillImageBox{
+        width: 90px;
+        height: 90px;
+    }
+    .skill p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container{
+        background-color: transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .skillImage {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .skillImageBox{
+        width: 70px;
+        height: 70px;
+    }
+    .skill p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        background-color: transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .skillImage {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .skillImageBox{
+        width: 50px;
+        height: 50px;
+    }
+    .skill p{
+        font-size: 10px;
+    }
+}

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import styles from "./Navbar.module.css";
 import {getImageUrl} from '../../utils.js';
 //import xyz from '../public/menuIcon.png'
-
+ 
 console.log("Calling getImageUrl with:", "nav/menuIcon.png");
 
 console.log(getImageUrl("nav/menuIcon.png"));
@@ -19,9 +19,12 @@ export const Navbar = () => {
                 onClick={() => setMenuOpen(!menuOpen)}
             />
 
-            <ul className={`${styles.menuitems} ${menuOpen && styles.menuOpen}`} onClick={()=> setMenuOpen(false)}>
+            <ul className={`${styles.menuitems} ${menuOpen && styles.menuOpen}`} >
                 <li>
                     <a href ="#about">About</a>
+                </li>
+                <li>
+                    <a href ="#skills">Skills</a>
                 </li>
                 <li>
                     <a href ="#experience">Experience</a>
